@@ -69,7 +69,7 @@ export const Portfolio: React.FC = () => {
 
         <div className="text-center mt-16">
           <a
-            href="#more-projects"
+            href="https://github.com/Gvenkatanarasimha05"
             className="px-8 py-3 border-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-600 hover:text-white rounded-md transition-all duration-300 inline-flex items-center font-medium"
           >
             View All Projects
