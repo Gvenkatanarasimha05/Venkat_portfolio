@@ -58,28 +58,6 @@ export const Skills: React.FC = () => {
           ))}
         </div>
 
-        {/* See More Skills */}
-        <div className="mt-16 text-center">
-          <a
-            href="#more-skills"
-            className="text-xl text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors duration-300 inline-flex items-center gap-2"
-          >
-            See More Skills
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M12 5v14M5 12l7 7 7-7" />
-            </svg>
-          </a>
-        </div>
 
         {/* Tools */}
         <div ref={toolsRef} className="mt-20 space-y-10">
@@ -113,29 +91,7 @@ export const Skills: React.FC = () => {
           ))}
         </div>
 
-        {/* See More Tools */}
-        <div className="mt-16 text-center">
-          <a
-            href="#more-tools"
-            className="text-xl text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors duration-300 inline-flex items-center gap-2"
-          >
-            See More Tools
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M12 5v14M5 12l7 7 7-7" />
-            </svg>
-          </a>
-        </div>
-      </div>
+       
     </section>
   );
 };
