@@ -8,8 +8,7 @@ export const projectsData: Project[] = [
     imageUrl: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'web',
     technologies: ['React', 'Node.js', 'MongoDB'],
-    liveUrl: '#',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/Gvenkatanarasimha05/fitnesspro',
   },
   {
     id: 2,
@@ -19,7 +18,7 @@ export const projectsData: Project[] = [
     category: 'web',
     technologies: ['Html', 'Css', 'Javascript'],
     liveUrl: 'https://gvenkatanarasimha05.github.io/Spotify-Clone/',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/Gvenkatanarasimha05/Spotify-Clone',
   },
 
 
