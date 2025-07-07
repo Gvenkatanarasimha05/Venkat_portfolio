@@ -42,22 +42,19 @@ export const Skills: React.FC = () => {
                   {skill.proficiency}%
                 </span>
               </div>
-              <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2">
-                
-              </div>
+              <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2"></div>
               <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-full transition-all duration-1000 ease-out"
                   style={{
                     width: skillsInView ? `${skill.proficiency}%` : '0%',
-                    transitionDelay: `${index * 100 + 300}ms`
+                    transitionDelay: `${index * 100 + 300}ms`,
                   }}
                 ></div>
               </div>
             </div>
           ))}
         </div>
-
 
         {/* Tools */}
         <div ref={toolsRef} className="mt-20 space-y-10">
@@ -75,23 +72,20 @@ export const Skills: React.FC = () => {
                   {tool.proficiency}%
                 </span>
               </div>
-              <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2">
-               
-              </div>
+              <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-2"></div>
               <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-full transition-all duration-1000 ease-out"
                   style={{
                     width: toolsInView ? `${tool.proficiency}%` : '0%',
-                    transitionDelay: `${index * 100 + 300}ms`
+                    transitionDelay: `${index * 100 + 300}ms`,
                   }}
                 ></div>
               </div>
             </div>
           ))}
         </div>
-
-       
+      </div> {/* ✅ This was missing — closes the main container */}
     </section>
   );
 };
