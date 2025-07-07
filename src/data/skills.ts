@@ -64,14 +64,14 @@ export const toolsData: Skill[] = [
   {
     id: 1,
     name: 'Figma',
-    proficiency: 90,
+    proficiency: 75,
     iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
   },
  
   {
     id: 2,
     name: 'Git',
-    proficiency: 88,
+    proficiency: 80,
     iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
   },
   {
