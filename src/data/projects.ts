@@ -1,12 +1,14 @@
 import { Project } from '../types';
+import travelImg from '../components/images/travel.jpg';
+
 
 export const projectsData: Project[] = [
    {
   id: 1,
   title: 'EasyTrip',
   description: 'A full-featured app that helps users plan trips, create personalized itineraries, and manage bookings, while providing smart travel suggestions and real-time updates.',
-  imageUrl: 'src/components/images/travel.jpg',
-  category: 'web',
+imageUrl: travelImg,
+category: 'web',
   technologies: ['React', 'Node.js', 'Express.js', 'MongoDB'],
   liveUrl: 'https://easytrip1.vercel.app/',
   codeUrl: 'https://github.com/Gvenkatanarasimha05/EasyTrip',
