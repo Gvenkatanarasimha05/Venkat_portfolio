@@ -1,6 +1,6 @@
 
 import { Code, Palette, Zap, Users, Award } from 'lucide-react';
-import meImage from './images/heo.jpg';
+import meImage from './images/heo.png';
 export const About: React.FC = () => {
   const skills = [
     {
